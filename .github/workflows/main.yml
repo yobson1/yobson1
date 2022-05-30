@@ -26,7 +26,7 @@ jobs:
           user: yobson1
           template: classic
           base: header, activity, repositories, metadata
-          config_display: columns
+          config_display: large
           config_octicon: yes
           config_timezone: Europe/London
           plugin_achievements: yes
