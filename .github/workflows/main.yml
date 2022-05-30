@@ -65,4 +65,4 @@ jobs:
           plugin_stock_symbol: GME
           plugin_stock_token: ${{ secrets.YAHOO_TOKEN }}
           repositories_forks: yes
-          config_order: base.header, base.activity, activity, base.repositories, habits, achievements, stock, languages
+          config_order: base.header, base.activity+community, activity, base.repositories, habits, achievements, stock, languages
