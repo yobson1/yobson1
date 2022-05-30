@@ -57,7 +57,4 @@ jobs:
           plugin_stock_symbol: GME
           plugin_stock_token: ${{ secrets.YAHOO_TOKEN }}
           repositories_forks: yes
-          plugin_screenshot: yes
-          plugin_screenshot_title: yo
-          plugin_screenshot_url: https://waifu.vercel.app/sfw/kiss
-          config_order: base.header, base.activity+community, base.repositories, habits, screenshot, achievements, stock, languages
+          config_order: base.header, base.activity+community, base.repositories, habits, achievements, stock, languages
