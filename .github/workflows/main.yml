@@ -62,4 +62,6 @@ jobs:
             h1, h2 {
               color: #ff76cd;
             }
+          extras_js: |
+            let days = document.getElementsByClassName("day"); for (let day of days) {if (day.getAttributeNS(null, "fill") == "#ebedf0") {day.setAttributeNS(null, "fill", "#161b22")}}	
           config_order: base.header, base.activity+community, base.repositories, achievements, music, stock, languages
