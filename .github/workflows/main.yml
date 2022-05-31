@@ -59,7 +59,7 @@ jobs:
           plugin_music_time_range: medium
           repositories_forks: yes
           extras_css: |
-            h1, h2 {
+            h1, h2, h3 {
               color: #ff76cd;
             }
           extras_js: |
