@@ -56,7 +56,7 @@ jobs:
           plugin_music_token: ${{ secrets.SPOTIFY_TOKEN }}
           plugin_music_mode: top
           plugin_music_top_type: artists
-          plugin_music_time_range: medium
+          plugin_music_time_range: short
           repositories_forks: yes
           extras_css: |
             h1, h2, h3 {
