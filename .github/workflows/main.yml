@@ -26,6 +26,7 @@ jobs:
           user: yobson1
           template: classic
           base: header, activity, repositories, metadata
+          base_indepth: yes
           config_display: large
           config_octicon: yes
           config_timezone: Europe/London
