@@ -45,7 +45,7 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_stock: yes
+          plugin_stock: no
           plugin_stock_duration: 1mo
           plugin_stock_interval: 5m
           plugin_stock_symbol: GME
