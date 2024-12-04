@@ -33,8 +33,8 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
                                     <rect class="day" x="0" y="0" width="11" height="11" fill="#161b22" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#161b22" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#161b22" rx="2" ry="2"/>
                                     <rect class="day" x="45" y="0" width="11" height="11" fill="#161b22" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#161b22" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#161b22" rx="2" ry="2"/>
@@ -257,7 +257,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="32.357973990417534 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="32.442847364818626 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -481,7 +481,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Maintainer
-                                    <span class="gh">ranked 816k out of 204m repositories</span>
+                                    <span class="gh">ranked 816k out of 218m repositories</span>
                                 </div>
                                 <div class="text">Maintaining a repository with 37 stars</div>
                             </div>
@@ -527,7 +527,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 2.29m out of 204m repositories</span>
+                                    <span class="gh">ranked 2.29m out of 218m repositories</span>
                                 </div>
                                 <div class="text">Maintaining or created a repository which has been forked 4 times</div>
                             </div>
@@ -786,7 +786,7 @@
                     <rect mask="url(#languages-bar)" x="804.7148939681277" y="0" width="58.011423588885066" height="8" fill="#dea584"/>
                     <rect mask="url(#languages-bar)" x="862.7263175570127" y="0" width="19.89036463845712" height="8" fill="#178600"/>
                     <rect mask="url(#languages-bar)" x="882.6166821954699" y="0" width="12.525542658539962" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="895.1422248540099" y="0" width="10.435014282489805" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="895.1422248540099" y="0" width="10.435014282489805" height="8" fill="#663399"/>
                     <rect mask="url(#languages-bar)" x="905.5772391364998" y="0" width="9.70988588640909" height="8" fill="#f1e05a"/>
                     <rect mask="url(#languages-bar)" x="915.2871250229088" y="0" width="4.712874977091269" height="8" fill="#3572A5"/>
                 </svg>
@@ -830,7 +830,7 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#563d7c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#663399" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 CSS
                             </div>
@@ -891,7 +891,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 3 Dec 2024, 08:16:34 (timezone Europe/London) with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 4 Dec 2024, 08:17:06 (timezone Europe/London) with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
