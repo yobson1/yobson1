@@ -8,7 +8,7 @@ on:
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04@20250511.1.0
     steps:
       - uses: jayvdb/metrics@0de38d84615eeeb2af5c01e01f8e4b4fd045da48
         with:
