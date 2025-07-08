@@ -9,6 +9,7 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: gh-metrics/metrics@edcae0f874d69e509d25ddd5e750a2f41cd54e10
         with:
@@ -50,7 +51,7 @@ jobs:
           plugin_stock_interval: 5m
           plugin_stock_symbol: GME
           plugin_stock_token: ${{ secrets.YAHOO_TOKEN }}
-          plugin_music: yes
+          plugin_music: no
           plugin_music_provider: spotify
           plugin_music_token: ${{ secrets.SPOTIFY_TOKEN }}
           plugin_music_mode: top
