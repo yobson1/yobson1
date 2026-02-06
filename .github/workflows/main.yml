@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
-      - uses: yobson1/metrics@master
+      - uses: gh-metrics/metrics@master
         with:
           # Your GitHub token
           # The following scopes are required:
